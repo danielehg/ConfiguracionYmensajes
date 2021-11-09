@@ -1,0 +1,26 @@
+<mat-card class="example-card">
+    <mat-card-header class= "Fondo">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Miguel Cortes Rodriguez</mat-card-title>
+      <mat-card-subtitle class= "subtitulo">Diseñador grafico</mat-card-subtitle>
+    </mat-card-header>
+   
+    <mat-card-content>
+        <button mat-button [matMenuTriggerFor]="menu">Configuracion</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Tamaño letra</button>
+          <button mat-menu-item>Idioma</button>
+          <button mat-menu-item>Filtros de daltonismo</button>
+          <button mat-menu-item>Brillo y contraste</button>
+          
+        </mat-menu>
+        <p></p>
+        <button mat-button>Ayuda</button>
+        <p></p>
+        <button mat-button>Cerrar sesión</button>
+    </mat-card-content>
+  
+  </mat-card>
+
+  
+ 
